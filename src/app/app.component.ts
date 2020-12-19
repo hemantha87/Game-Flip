@@ -18,7 +18,7 @@ export class AppComponent {
       { faceValue: 3, paired: false }
     ],
     [
-      { faceValue: 12, paired: false, img:'' },
+      { faceValue: 12, paired: false, img:'assests/images/gray-mountain.jpg' },
       { faceValue: 9, paired: false },
       { faceValue: 11, paired: false },
       { faceValue: 10, paired: false }
