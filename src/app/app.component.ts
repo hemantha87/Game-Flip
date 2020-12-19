@@ -12,22 +12,26 @@ export class AppComponent {
 
   tiles = [
     [
-      { faceValue: 1, paired: false, img:'assests/images/gray-mountain.jpg' },
-      { faceValue: 4, paired: false, img:'assests/images/green-mountain.jpg' },
-      { faceValue: 2, paired: false, img:'assests/images/mountain.jpg' },
-      { faceValue: 3, paired: false, img:'assests/images/peak-mountain.jpg' }
+      {
+        faceValue: 1,
+        paired: false,
+        img: "https://i.ibb.co/fDWsn3G/buck.jpg"
+      },
+      { faceValue: 4, paired: false, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4uubegfz4DJo7a5J09XOv-8w3Aoy6pQ5znQ&usqp=CAU" },
+      { faceValue: 2, paired: false, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8luT30NsabgYTTP_YthEw_YBiPPIX7M_AeA&usqp=CAU" },
+      { faceValue: 3, paired: false, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMhmrs4J4mgWfNnGfMhxJUu4j-oRQonl0rUQ&usqp=CAU" }
     ],
     [
-      { faceValue: 12, paired: false, img:'assests/images/gray-mountain.jpg' },
-      { faceValue: 9, paired: false, img:'assests/images/green-mountain.jpg' },
-      { faceValue: 11, paired: false, img:'assests/images/mountain.jpg' },
-      { faceValue: 10, paired: false, img:'assests/images/peak-mountain.jpg' }
+      { faceValue: 12, paired: false, img: "https://i.ibb.co/fDWsn3G/buck.jpg" },
+      { faceValue: 9, paired: false, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4uubegfz4DJo7a5J09XOv-8w3Aoy6pQ5znQ&usqp=CAU" },
+      { faceValue: 11, paired: false, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8luT30NsabgYTTP_YthEw_YBiPPIX7M_AeA&usqp=CAU" },
+      { faceValue: 10, paired: false, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMhmrs4J4mgWfNnGfMhxJUu4j-oRQonl0rUQ&usqp=CAU" }
     ],
     [
-      { faceValue: 5, paired: false, img:'assests/images/snow-mountain.jpg' },
-      { faceValue: 6, paired: false, img:'assests/images/white-mountain.jpg' },
-      { faceValue: 7, paired: false, img:'assests/images/white-mountain.jpg' },
-      { faceValue: 8, paired: false, img:'assests/images/snow-mountain.jpg' }
+      { faceValue: 5, paired: false, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTFAX8OUkjXMyYiXQEdmL0qnbY6jEmhv0qGQ&usqp=CAU" },
+      { faceValue: 6, paired: false, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLsoRGF4nNnlFkRVUZCQoX9jN5zkbZkZWqsA&usqp=CAU" },
+      { faceValue: 7, paired: false, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLsoRGF4nNnlFkRVUZCQoX9jN5zkbZkZWqsA&usqp=CAU" },
+      { faceValue: 8, paired: false, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTFAX8OUkjXMyYiXQEdmL0qnbY6jEmhv0qGQ&usqp=CAU" }
     ]
   ];
 

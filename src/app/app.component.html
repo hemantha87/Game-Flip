@@ -2,9 +2,11 @@
 	<div *ngFor="let tile of row; let j = index" class="flip-card">
 		<div class="flip-card-inner" (click)="flip(i,j,card)" #card>
 			<div class="flip-card-front"></div>
-			<div class="flip-card-back">
-				<img [src]="tile?.img"  [alt]="tile.faceValue">
-            </div>
+			<div class="flip-card-back"  style="background-size: cover"
+      [ngStyle]="{ 'background-image': 'url(' + tile?.img + ')'}">
+				<!-- <img    [alt]="tile.faceValue"> -->
+        {{tile.faceValue}}
+      </div>
 			</div>
 		</div>
 	</div>
