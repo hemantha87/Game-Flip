@@ -13,21 +13,21 @@ export class AppComponent {
   tiles = [
     [
       { faceValue: 1, paired: false, img:'assests/images/gray-mountain.jpg' },
-      { faceValue: 4, paired: false },
-      { faceValue: 2, paired: false },
-      { faceValue: 3, paired: false }
+      { faceValue: 4, paired: false, img:'assests/images/green-mountain.jpg' },
+      { faceValue: 2, paired: false, img:'assests/images/mountain.jpg' },
+      { faceValue: 3, paired: false, img:'assests/images/peak-mountain.jpg' }
     ],
     [
       { faceValue: 12, paired: false, img:'assests/images/gray-mountain.jpg' },
-      { faceValue: 9, paired: false },
-      { faceValue: 11, paired: false },
-      { faceValue: 10, paired: false }
+      { faceValue: 9, paired: false, img:'assests/images/green-mountain.jpg' },
+      { faceValue: 11, paired: false, img:'assests/images/mountain.jpg' },
+      { faceValue: 10, paired: false, img:'assests/images/peak-mountain.jpg' }
     ],
     [
-      { faceValue: 5, paired: false },
-      { faceValue: 6, paired: false },
-      { faceValue: 7, paired: false },
-      { faceValue: 8, paired: false }
+      { faceValue: 5, paired: false, img:'assests/images/snow-mountain.jpg' },
+      { faceValue: 6, paired: false, img:'assests/images/white-mountain.jpg' },
+      { faceValue: 7, paired: false, img:'assests/images/white-mountain.jpg' },
+      { faceValue: 8, paired: false, img:'assests/images/snow-mountain.jpg' }
     ]
   ];
 
