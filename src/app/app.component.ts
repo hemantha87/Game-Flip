@@ -12,7 +12,7 @@ export class AppComponent {
 
   tiles = [
     [
-      { faceValue: 1, paired: false, img:'' },
+      { faceValue: 1, paired: false, img:'assests/images/gray-mountain.jpg' },
       { faceValue: 4, paired: false },
       { faceValue: 2, paired: false },
       { faceValue: 3, paired: false }
