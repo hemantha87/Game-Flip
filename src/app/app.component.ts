@@ -62,9 +62,9 @@ export class AppComponent {
 
       if (this.tiles.every(row => row.every(tile => tile.paired))) {
         alert(
-          "congrats " +
+          "congrats  attempts" +
             this.attempt +
-            " " +
+            " Time taken to complete" +
             (Date.now() - this.start) / 1000 +
             "s"
         );
